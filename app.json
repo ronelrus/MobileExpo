@@ -5,11 +5,14 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
+    "androidStatusBar": {
+      "hidden": true
+    },
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "center",
+      "backgroundColor": "#410FA3"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,6 +28,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a5f7acb9-8d74-44d0-8cf7-b7a0f1cbd932"
+      }
     }
   }
 }
